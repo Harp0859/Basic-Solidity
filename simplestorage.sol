@@ -18,7 +18,7 @@ contract SimpleStorage {
     //eg : uint256[] public favnumlist; (also an array)
     People[] public people; 
     
-function store(uint256 _favnum) public {
+function store(uint256 _favnum) public virtual {
         favnum = _favnum;
         
      }
